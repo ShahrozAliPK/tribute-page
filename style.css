@@ -1,0 +1,148 @@
+body{
+    background: #0C1618;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container-border{
+    width: 90vw;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(to right, #ff512f, #f09819);
+
+    border: none;
+    border-radius: 10px;
+}
+
+.parent-container{
+    width: 1000%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 3px;
+
+    background-color: #0C181D;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: -3px 15px 13px -12px rgba(0,0,0,0.75);
+}
+
+    .title{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        margin-top: 2%;
+        padding: 2%;
+
+        width: 50%;
+        height: auto;
+
+    }
+
+    .title h1{
+        text-align: center;
+        font-family: 'Caveat', cursive;
+        font-size: 10vmin;
+        color: white;
+
+        margin-top: -5%;
+        margin-bottom: 1vmin;
+
+    }
+
+    .title span{
+        display: block;
+
+        text-align: center;
+        color: white;
+        font-family: 'Mulish', sans-serif;
+        font-size: 2.1vmin;
+
+
+    }
+
+    .pic{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        width: 45%;
+        height: auto;
+
+        margin-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+        .pic img{
+            width: 100%;
+            height: auto;
+
+            margin-bottom: 2%;
+        }
+
+        .pic span{
+            text-align: center;
+            font-family: 'Mulish', sans-serif;
+            font-size: 2.2vmin;
+            color: white;
+        }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        width: 88%;
+        height: auto;
+
+        margin-top: 2%;
+        margin-bottom: 5%;
+        padding: 3%;
+
+        box-sizing: border-box;
+
+    }
+
+    .content h2{
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+        color: white;
+
+        padding: 3%;
+
+    }
+
+    .content p{
+        width: 88%;
+
+        text-align: center;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 100%;
+        line-height: 200%;
+
+        padding-bottom: 8%;
+
+        border-bottom: 1px solid #afafaf6b;
+
+    }
+
+    .content a{
+        color: white;
+    }
